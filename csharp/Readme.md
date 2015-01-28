@@ -1,13 +1,16 @@
-This demonstrates Microsofts view on how XML should be canonicalized. If this is wrong, then dotNet will have a big problem coexisting with the world.
+## dotNet Canonicalization
+This demonstrates how dotNet canonicalizes XML. 
 
+## Build it
 To build this use a VS2013 command prompt and type:
 
 csc /out:c14n.exe program.cs
 
-Then run:
+## Run it
 c14n.exe
 
-See this output:
+
+## Output
 ===> ORIGINAL <====
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet href="doc.xsl"   type="text/xsl"   ?><root><child><inner>123</inner></child></root>
 ===> C14N <====
