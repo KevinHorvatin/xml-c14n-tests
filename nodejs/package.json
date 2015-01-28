@@ -1,0 +1,29 @@
+{
+  "name": "C14NTest",
+  "version": "1.0.0",
+  "description": "Run XML canonicalization with C14N and C14N#WithComments algorithms",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodeunit ./test/c14n.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinHorvatin/xml-c14n-tests.git"
+  },
+  "author": "Kevin Horvatin (kevin.horvatin@software.dell.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinHorvatin/xml-c14n-tests/issues"
+  },
+  "homepage": "https://github.com/KevinHorvatin/xml-c14n-tests",
+  "dependencies": {
+    "xml-crypto": "^0.1.26",
+    "xmldom": "^0.1.19",
+    "xmldom-fork-fixed": "0.0.1",
+    "xpath.js": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.0"
+  }
+}

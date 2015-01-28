@@ -26,3 +26,9 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# VI Temp files
+*.*~
+
+# CSharp exes
+*.exe
