@@ -4,10 +4,10 @@ Using this page as my guide [W3 XML-c14n-examples](http://www.w3.org/TR/2001/REC
 
 ## Findings so far
 
-	* .Net 
-	--* using System.Security in .Net 4.5 works as expected
-	* Nodejs 
-	--* using xml-crypto - issues with pidata and comments
+* .Net 
+--* using System.Security in .Net 4.5 works as expected
+* Nodejs 
+--* using xml-crypto - issues with pidata and comments
 
 ## Results are here
 
