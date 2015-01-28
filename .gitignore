@@ -29,6 +29,7 @@ node_modules
 
 # VI Temp files
 *.*~
+*.swp
 
 # CSharp exes
 *.exe

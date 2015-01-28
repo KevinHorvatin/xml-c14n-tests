@@ -4,8 +4,7 @@
   "description": "Run XML canonicalization with C14N and C14N#WithComments algorithms",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "nodeunit ./test/c14n.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/KevinHorvatin/xml-c14n-tests",
   "dependencies": {
+    "underscore": "^1.7.0",
     "xml-crypto": "^0.1.26",
     "xmldom": "^0.1.19",
     "xmldom-fork-fixed": "0.0.1",
