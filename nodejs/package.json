@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/KevinHorvatin/xml-c14n-tests",
   "dependencies": {
+    "q": "^1.1.2",
     "underscore": "^1.7.0",
+    "xml-c14n": "0.0.6",
     "xml-crypto": "^0.1.26",
     "xmldom": "^0.1.19",
     "xmldom-fork-fixed": "0.0.1",
